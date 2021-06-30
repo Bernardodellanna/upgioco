@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>MENÙ</title>
+        <script src="//cdn.jsdelivr.net/phaser/2.5.0/phaser.min.js"></script>
+        <style>
+
+        .center {
+          background-color: #2f431f;
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          margin-top: 4%;
+          display: flex;
+          justify-content: space-around;
+          background-size: cover;
+          overflow: hidden;
+        }
+
+        .container {
+        position: relative;
+          width: 1024px;
+          height: 768px;
+          align: center;
+
+        }
+
+        .container img {
+          width: 1024px;
+          height: 768px;
+
+        }
+
+        .container .btn1 {
+          position: absolute;
+          top: 190px;
+          left: 430px;
+          width: 138px;
+          height: 138px;
+          background-image: URL('Materiali/COPERTINA/ICONA PLAY.png');
+          border: none;
+            border-radius: 138px;
+        }
+
+        .container .btn2 {
+          position: absolute;
+          top: 220px;
+          left: 615px;
+          width: 136px;
+          height: 136px;
+          transform: translate(-15%, 0%);
+          background-image: URL('Materiali/COPERTINA/ICONA AUTORI.png');
+          border: none;
+          border-radius: 138px;
+        }
+
+        .container .btn3 {
+          position: absolute;
+          top: 375px;
+          left: 500px;
+          width: 138px;
+          height: 138px;
+          transform: translate(-25%, -25%);
+          background-image: URL('Materiali/COPERTINA/ICONA STORIA.png');
+          border-radius: 138px;
+          border: none;
+        }
+
+        .container .btn1:hover {
+          transform: scale(1.2);
+          transition: transform .2s;
+          transform-origin: 100% 100%;
+}
+        .container .btn2:hover {
+          transform: scale(1.2);
+          transition: transform .2s;
+          transform-origin: 100% 100%;
+}
+
+        .container .btn3:hover {
+          transform: scale(1.2);
+          transition: transform .2s;
+          transform-origin: 100% 100%;
+}
+
+
+        </style>
+    </head>
+    <body class="center">
+      <div class="container">
+        <img src="Materiali/COPERTINA/COPERTINA.jpg"  width="1024" height="768">
+        <a href="Materiali/ROCCIOSO.html"><button class="btn1"></button></a>
+        <a href="Materiali/AUTORI.html"><button class="btn2"></button></a>
+        <a href="Materiali/SCENA1.html"><button class="btn3"></button></a>
+      </div>
+
+    <script type="text/javascript">
+
+    window.onload = function() {
+
+        //  Note that this html file is set to pull down Phaser 2.5.0 from the JS Delivr CDN.
+        //  Although it will work fine with this tutorial, it's almost certainly not the most current version.
+        //  Be sure to replace it with an updated version before you start experimenting with adding your own code.
+
+        //var game = new Phaser.Game(1024, 768, Phaser.AUTO, '', { preload: preload, create: create });
+
+        function preload () {
+
+
+        }
+
+        function create () {
+
+
+
+
+        }
+
+    };
+
+    </script>
+
+    </body>
+</html>
